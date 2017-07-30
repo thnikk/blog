@@ -3,6 +3,8 @@ layout: post
 title: 3D Printing is Cool
 ---
 
+![Thumbnail](https://{{ site.url }}/images/7-29-thumb.jpg)
+
 Right when I got my first printer, I felt like I could make anything and fix any problem that I run into. I think this the same for a lot of 3D printer owners, but I think it was different for me because I actually had things that I really wanted to make. My full-sized Future Tone controller needed a bracket for holding the touchpad and analog sticks, I had just gotten some new curtains in that used clips that couldn't attach to a curtain rod, and I wanted to start printing my keypads and making new keypads I couldn't make before when I was just cutting cases by hand. I was never into any novelty printing nor did I need any benchmark prints since keypads WERE my benchmark.
 
 There did come a point where I ran out of "fun" prints, though. I think it's always fun to see your imagination come to life in the way that only 3D printing can provide, but there's something extra special about solving a problem that couldn't be solved in any other way (and isn't for work.)
