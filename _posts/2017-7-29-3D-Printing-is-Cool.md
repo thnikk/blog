@@ -11,15 +11,15 @@ I got this Yuki Himekawa figure last week and I really like it. The only thing i
 
 "Why not just print an angled base for the base?" Obviously this idea wouldn't work for any figure since the bases can get pretty crazy sometimes, but this one is just a simple circle so it should be easy enough. I opened up Fusion 360 when I woke up and quickly designed something. There's some extra plastic on the inside of the base to help support the streamers(?) so it needed to be hollow in the inside so they don't prevent it from going down all the way. Otherwise I just need to make a circular grove and cut it off at an angle (this was 10%.)
 
-![Crap]({{ site.url }}/images/oldBase.jpg)
+![Crap](https://{{ site.url }}/images/oldBase.jpg)
 
 I put this one on and quickly realized how pointless and wasteful it was to have a solid bottom. It wouldn't help with stability at all and make it a lot harder to remove. The groove wasn't sized perfectly either so I quickly redesigned it to not have a solid bottom and be a little bit tighter.
 
-![Perfect]({{ site.url }}/images/newBase.jpg)
+![Perfect](https://{{ site.url }}/images/newBase.jpg)
 
 And it worked perfectly! I really love this project because it was so easy and it fixed such an simple problem without having to modify the figure in any way. It doesn't look bad either, I actually think it looks kind of cool. It also looks closer to the original illustration!
 
-![Orignal]({{ site.url }}/images/oldYuki.jpg) ![New Base]({{ site.url }}/images/newYuki.jpg)
+![Orignal](https://{{ site.url }}/images/oldYuki.jpg) ![New Base](https://{{ site.url }}/images/newYuki.jpg)
 
 Here's the illustration:
 ![Illustration](http://www.project-imas.com/w/images/thumb/0/07/Yuki_SS_SSR%2B.png/800px-Yuki_SS_SSR%2B.png)
