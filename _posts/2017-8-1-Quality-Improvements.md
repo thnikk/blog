@@ -31,4 +31,4 @@ I also printed this month's giveaway keypads using the same settings! I'm very h
 
 ![Giveaway](https://{{ site.url }}/images/Quality_Improvements/giveaway.jpg)
 
-There's more info on the giveaway page here: https://gleam.io/competitions/e3NKx-august-limited-edition-osu-keypad-giveaway
+There's more info on the giveaway page here: [Gleam](https://gleam.io/competitions/e3NKx-august-limited-edition-osu-keypad-giveaway)
