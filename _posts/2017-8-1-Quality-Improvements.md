@@ -5,6 +5,8 @@ title: Quality Improvements and Monthly Giveaway
 
 I've been content with the quality of my keypads for quite a while now, but since I built my Hypercube I've been trying out different settings to try to get consistent print quality. Amongst those was decreasing the extrusion diameter from .48 to .36mm, which in conjunction with a .25mm layer height gets prints done faster (3 minutes but faster is faster), looking a little bit better, and a little bit stronger.
 
+<!--break-->
+
 ## From One Printer to Another
 
 Though this configuration was originally made for my hypercube, it did teach me that you can reduce your extrusion diameter for higher quality prints without reducing your nozzle diameter. It won't give you the accuracy of a smaller nozzle if you're trying to print something small, but it also helps with retraction and reduces stringing since it reduces the pressure in the hotend.
