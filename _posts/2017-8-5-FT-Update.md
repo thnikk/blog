@@ -14,6 +14,7 @@ Hi all. It's been a log time coming, but the Future Tone controller is finally a
 To be honest, the touchpad is the only thing that has kept this from being released for the past few months. The controller is actually relatively simple (though there is a lot of very arduous soldering,) but the actual mounting for the touchpad was a very difficult thing to get right. It needs to be supported in the front to prevent it from being pushed in and also give a satisfying click when pressed. After trying out a lot of supports and gluing the touchpad to a printed part, I ended up finally settling on adding a wall to the bottom of the case that prevents the touchpad from being pushed forward, since that was causing it to get stuck on my previous prototype. It required a lot of trial and error due to the odd geometry of the touchpad which made it very difficult to get an accurate 3D model of for reference, but after many prints and probably about 1kg of filament, it finally works perfectly!
 
 ![Completely useless reference](https://puu.sh/x2MM8/7ac3c4e24c.png)
+_Seriously, this model is useless._
 
 ## Finishing touches to the firmware
 
