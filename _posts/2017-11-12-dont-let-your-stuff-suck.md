@@ -25,7 +25,7 @@ At the end of the Y arm, there's a PCB that breaks out the connection from the r
 
 After that there are just the small quirks of getting some things to work. The Z probe needed a mosfet to connect to the 5v signal lines, the hotend fan needed a mosfet to be controlled by a 5v signal line, and the LEDs needed their pins rearranged a bit and I had to solder a jumper to the PCB. 
 
-## Results
+## Results 
 
 These are now my two favorite printers. I have two other Printrbot printers (the Play and the Simple) and they are both good, but the Simple Pro is built amazingly well. Printrbot builds amazingly sturdy hardware and I'm happy to have two additions to my arsenal. With a little bit of love you can iron out the problems with the Simple Pro and make it a great printer. 
 
