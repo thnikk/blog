@@ -14,6 +14,7 @@ The software, on the other hand, is absolute garbage. To be fair, I knew that th
 Without getting too deep into it, the original electronics are awful. There's a mandatory OTA firmware update right when you power it on for the first time, which takes about 20 minutes and makes you think it died. Even after that update, you still need to update to a beta build of the firmware if you wish to print over USB. The updater is for Mac OS only and I don't have a mac, so I went on a several hour long adventure with a VM, a flash drive, and my laptop. Even after flashing the firmware, it's super jittery printing regular gcode files and you can change nothing except for the Z offset (which has to go in the start gcode.) It only worked with Cura and my extruder kept clicking, which is apparently a common issue and something you can't fix because you can't adjust the stepper current. Basically, Printrbot tried to stay ahead of the curve and move to a 32 bit board, but they just aren't ready for prime time yet. They tried to fix that with cloud software, but that made it even more nightmarish. 
 
 ## Changing the electronics
+
 Honestly, this was a pretty easy task. The X and X motors as well as the X endstop are already terminated regularly. Everything else uses the ribbon cable to connect to simplify cable management. It terminates with a simple 26 pin ribbon cable connector, so all I had to do was find the female version of the cable, cut it, and solder on connectors for the individual connections. 
 
 ![Spreadsheet](https://{{ site.url }}/images/simplePro/spreadsheet.png)
@@ -25,6 +26,7 @@ At the end of the Y arm, there's a PCB that breaks out the connection from the r
 After that there are just the small quirks of getting some things to work. The Z probe needed a mosfet to connect to the 5v signal lines, the hotend fan needed a mosfet to be controlled by a 5v signal line, and the LEDs needed their pins rearranged a bit and I had to solder a jumper to the PCB. 
 
 ## Results
+
 These are now my two favorite printers. I have two other Printrbot printers (the Play and the Simple) and they are both good, but the Simple Pro is built amazingly well. Printrbot builds amazingly sturdy hardware and I'm happy to have two additions to my arsenal. With a little bit of love you can iron out the problems with the Simple Pro and make it a great printer. 
 
 Lastly, a note to Printrbot. I would not feel happy recommending the Simple Pro in its current state to anyone. It'd be one thing if I could tell them to plug it in, download Cura, and go. What would I tell them with this? Connect the printer to your network, go to printrbot.cloud, hope your printer shows up as online, hope your model isn't too big, and hope it slices your file? There are alternatives. Hell, include a raspberry pi with octoprint and Cura can print to it directly. There's no need to reinvent the wheel and make it more complicated when your goal is to be simple. Simple also doesn't have to mean take every single option away from people. You guys make hardware that's too awesome to be ruined over something so pointless. 
