@@ -15,20 +15,20 @@ Though this configuration was originally made for my hypercube, it did teach me 
 
 I got a new phone with a decent camera, but I'm not patient enough to be a photographer. Here are some pictures anyway! Old is left, new is right.
 
-![Old vs new](https://{{ site.url }}/images/Quality_Improvements/top.jpg)
+![Old vs new](https://{{ site.url }}/blog/images/Quality_Improvements/top.jpg)
 
 Here you can see the difference in side quality. The extrusion is much more consistent and the faster printing gives the finish a much more consistent look. The Z scar (where each layer starts) also looks much better.
 
-![Side](https://{{ site.url }}/images/Quality_Improvements/side.jpg)
+![Side](https://{{ site.url }}/blog/images/Quality_Improvements/side.jpg)
 
 You can also see two things in this picture. The walls are slightly thinner but without the over-extrusion that there was before. You can also see the reduced stringing.
 
-![Inside](https://{{ site.url }}/images/Quality_Improvements/inside.jpg)
+![Inside](https://{{ site.url }}/blog/images/Quality_Improvements/inside.jpg)
 
 ## August Giveaway
 
 I also printed this month's giveaway keypads using the same settings! I'm very happy with how they came out and think they are some of my best prints ever.
 
-![Giveaway](https://{{ site.url }}/images/Quality_Improvements/giveaway.jpg)
+![Giveaway](https://{{ site.url }}/blog/images/Quality_Improvements/giveaway.jpg)
 
 There's more info on the giveaway page here: [Gleam](https://gleam.io/competitions/e3NKx-august-limited-edition-osu-keypad-giveaway)
