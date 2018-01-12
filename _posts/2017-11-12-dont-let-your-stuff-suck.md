@@ -3,7 +3,7 @@ layout: post
 title: Don't let your stuff suck.
 ---
 
-![Complete](https://{{ site.url }}/images/simplePro/DSC_0317.JPG)
+![Complete](../images/simplePro/DSC_0317.JPG)
 
 Last month there was a fire sale on the Printrbot Simple Pro. It was going for $185 down from its original $999 price tag (now $699 through Printrbot with the heated bed,) so I did the obvious thing and bought two of them. It features some amazing hardware with all nicely machined parts, nicely sourced motors, clean cable management, the Ubis 13S hotend, and Printrbot's great gear extruder. It also has a healthy build area of 215x150x200 mm, which is big enough for almost anything.  
 
