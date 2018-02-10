@@ -61,7 +61,7 @@ I also love the on-board DotStar (RGB) LED! This should allow me to add some sim
 
 CircuitPython is fork of the MicroPython project, which allows you to program your microcontroller with Python. It's incredibly cool and the implementation on the Trinket M0 is even cooler. Rather than having to use an IDE, the Trinket mounts itself as a simple flash drive. All you have to do to edit the code is open the python file on the drive with a text editor and save it and the code will update in real-time.
 
-As cool as this is, the overhead on the microcontroller is far too much for a keypad at the moment. Using Arduino, the code is able to run 32000 times per second vs ~20 times per second using CircuitPython. As great as it would be to be able to edit your button mapping by changing a single value in the code and just pressing save, it's not worth the performance loss. I'd like to revisit it further into its development when the overhead has been reduces, but until then I'll be continuing with Arduino.
+As cool as this is, the overhead on the microcontroller is far too much for a keypad at the moment. Using Arduino, the code is able to run 32000 times per second vs ~20 times per second using CircuitPython. As great as it would be to be able to edit your button mapping by changing a single value in the code and just pressing save, it's not worth the performance loss. I'd like to revisit it further into its development when the overhead has been reduced, but until then I'll be continuing with Arduino.
 
 
 ## Shop Changes
