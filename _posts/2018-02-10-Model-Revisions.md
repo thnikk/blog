@@ -3,7 +3,7 @@ layout: post
 title: Model Revisions with Nice Additions
 ---
 
-![Exploded](https://{{ site.url }}/blog/images/explodeme.gif)
+![Exploded](https://{{ site.url }}/images/explodeme.gif)
 
 Last month, I decided that I wanted to remake the model for my keypads from scratch yet again, but this time with a special goal. I wanted to make a single 3D model with parameters for the key grid so I can use a single model for every keypad. This makes changing things a lot easier since one change will affect all models rather than me having to make all of those changes individually. I thought this would be quite the undertaking, since a lot of the features on the model seemed difficult to be updated. However, all it took was a little bit of extra thought and it was fairly simple. I got most of it done in one day and I've been printing these since I finished the model.
 
@@ -23,7 +23,7 @@ The bottom now receives a Trinket M0 rather than a Pro Micro. Not only that, but
 
 There are also some subtle changes just to clean things up. The bottom edge of the top of the case now has a slight chamfer to reduce the surface area of rubbing plastic, the screw hole is now threaded and some other minor fixes here and there to get it to print more nicely.
 
-![Underside](https://{{ site.url }}/blog/images/underside.png){: .center-image }
+![Underside](https://{{ site.url }}/images/underside.png){: .center-image }
 
 _This chamfer helps reduce friction which can compensate for inconsistencies between my printers._
 
@@ -33,7 +33,7 @@ _This chamfer helps reduce friction which can compensate for inconsistencies bet
 
 The way that the port is attached to a Pro Micro is... far from perfect. It's soldered to pads on the board, but it doesn't go through the board. This means that the force required to remove the port from the board is the same amount of force required to rip the pads off of the board. This isn't as easy to break as it may sound, but it does make the port less secure than it should be.
 
-![Pro Micro](https://{{ site.url }}/blog/images/promicro.jpg){: .center-image }
+![Pro Micro](https://{{ site.url }}/images/promicro.jpg){: .center-image }
 
 _Those two pads on either side are all that the port is attached to._
 
@@ -49,7 +49,7 @@ I've been getting these boards from China which can take several weeks. I also h
 
 The ATmega32U4 on the Pro Micro is a relatively old and weak chip. For this application it really doesn't matter too much, but I'd like to give my keypad more room to grow and the ATSAMD21 on the Trinket M0 provides a lot more wiggle room. It supports MicroPython/CircuitPython out of the box, it's a lot faster, and though it lacks EEPROM it supports EEPROM emulation through its flash.
 
-![Trinket](https://{{ site.url }}/blog/images/trinket.jpg){: .center-image }
+![Trinket](https://{{ site.url }}/images/trinket.jpg){: .center-image }
 
 _The four connections for the port are through-hole._
 
@@ -68,7 +68,7 @@ As cool as this is, the overhead on the microcontroller is far too much for a ke
 
 For now, I'm planning a few changes. Because I believe the RGB LED that's now included in the basic model actually adds value (and these boards cost me about twice as much,) I want to increase the price of the basic model by one whole dollar. It's still a loss for me financially, but hopefully I'll be able to make up the difference in the time I save from not having to add solder to the USB port and remove LEDs.
 
-![New RGB](https://{{ site.url }}/blog/images/2krgb.jpg){: .center-image }
+![New RGB](https://{{ site.url }}/images/2krgb.jpg){: .center-image }
 
 _The underglow is from the DotStar LED (though a little dim, I still have to tune the brightness.)_
 
