@@ -5,7 +5,7 @@ title: Future Tone Controller Update (8/5)
 
 Hi all. It's been a log time coming, but the Future Tone controller is finally almost (95%) done! Now I have the original completed prototype and one with the fixed touchpad.
 
-![Two controllers!](https://{{ site.url }}/images/FTUpdate/dubz.jpg)
+![Two controllers!](https://thnikk.github.io/blog/images/FTUpdate/dubz.jpg)
 
 <!--break-->
 

@@ -3,7 +3,7 @@ layout: post
 title: Don't let your stuff suck.
 ---
 
-![Complete](https://{{ site.url }}/images/simplePro/DSC_0317.JPG)
+![Complete](https://thnikk.github.io/blog/images/simplePro/DSC_0317.JPG)
 
 Last month there was a fire sale on the Printrbot Simple Pro. It was going for $185 down from its original $999 price tag (now $699 through Printrbot with the heated bed,) so I did the obvious thing and bought two of them. It features some amazing hardware with all nicely machined parts, nicely sourced motors, clean cable management, the Ubis 13S hotend, and Printrbot's great gear extruder. It also has a healthy build area of 215x150x200 mm, which is big enough for almost anything.  
 
@@ -17,11 +17,11 @@ Without getting too deep into it, the original electronics are awful. There's a 
 
 Honestly, this was a pretty easy task. The X and X motors as well as the X endstop are already terminated regularly. Everything else uses the ribbon cable to connect to simplify cable management. It terminates with a simple 26 pin ribbon cable connector, so all I had to do was find the female version of the cable, cut it, and solder on connectors for the individual connections.
 
-![Spreadsheet](https://{{ site.url }}/images/simplePro/spreadsheet.png)
+![Spreadsheet](https://thnikk.github.io/blog/images/simplePro/spreadsheet.png)
 
 At the end of the Y arm, there's a PCB that breaks out the connection from the ribbon cable to all of the components. This is great because it means that replacing a single component is still very easy. It's also a great way to find the pinout, since everything is labeled. I got out my mulitmeter and made a spreadsheet, and started probing in continuity mode. If I hear a beep, that means that the two lines are connected so I just had to go through each connection and find out which pin it was on the ribbon cable. If there ware any common connections, it was either 12v or ground. If there's a common connection and one of them is on an endstop, that was ground and if it was on a fan, that was 12v. I'd never done this before but it was very straightforward and it worked on the first try!
 
-![Ribbon](https://{{ site.url }}/images/simplePro/DSC_0320.JPG)
+![Ribbon](https://thnikk.github.io/blog/images/simplePro/DSC_0320.JPG)
 
 After that there are just the small quirks of getting some things to work. The Z probe needed a mosfet to connect to the 5v signal lines, the hotend fan needed a mosfet to be controlled by a 5v signal line, and the LEDs needed their pins rearranged a bit and I had to solder a jumper to the PCB.
 
