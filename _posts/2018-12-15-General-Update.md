@@ -3,7 +3,9 @@ layout: post
 title: End of the Year Update
 ---
 
-Hi all! Sorry for not posting as much as I'd like to, but I've been hard at work trying to balance order fulfillment and development. I actually have a few half-written posts that I never published, so I'll try to include as much of that in here as I can.<!--break-->
+![Design refresh](https://thnikk.github.io/blog/images/121518/DSC_1125.jpg "New design")
+
+Hi all! Sorry for not posting as much as I'd like to, but I've been hard at work trying to balance order fulfillment and development. I actually have a few half-written posts that I never published, so I'll try to include as much of that in here as I can.<!--break-->animation
 
 ### New models
 
@@ -15,7 +17,7 @@ Coming soon (hopefully early 2019) will be the 4K MegaTouch. The design is done 
 
 ### New revisions to touch models
 
-While I was designing the MegaTouch, I realized that the sliding mechnanism of my keypads wasn't necessarily the only option. The big limitation I had (and why the touch models originally had so much padding around the edges) was that the screw needed something on the bottom half of the case to screw into, so it needed to be as wide as both the microcontroller and the screw post. However, the sliding mechanism would only work with the USB port and side button on the same side, so I had to come up with another solution.
+While I was designing the MegaTouch, I realized that the sliding mechanism of my keypads wasn't necessarily the only option. The big limitation I had (and why the touch models originally had so much padding around the edges) was that the screw needed something on the bottom half of the case to screw into, so it needed to be as wide as both the microcontroller and the screw post. However, the sliding mechanism would only work with the USB port and side button on the same side, so I had to come up with another solution.
 
 What I decided on instead was making the top and bottom pivot into each other from one side and get secured with a screw from the opposite side. This requires tighter clearances but works just as well, if not better than before. The touch models are now able to be as tall as the screw post on the bottom half of the case is. I also made the bottom slightly thicker to make the whole thing more rigid.
 
@@ -48,14 +50,15 @@ My plan is to keep the design close to what I've made so far but make a PCB that
 
 Maintaining code for the regular models, the macropad, the 7K keypad, and the touch models has been a challenge. Adding features means I basically need to do it manually for every model. This is mostly because it's a lot easier to change the code and make it work for one model than make code work for all models simultaneously, but I'd really like to put in some effort into this so I can do things like allow LED modes to be changed via the remapper for all models (or with the side button as well.) With capacitive touch coming to the mechanical models for the side button, I'll have to implement a lot of the touch code into the mechanical code anyway so I think this just makes sense from every angle.
 
+#### Dedicated remapper utility
+
+I've been recommending Termite for handling serial communications with keypads, but the config file doesn't load for a lot of people and it's just not as clean of a solution as I'd like. Next year, I'd really like to make a nice GUI remapper that's simple and painless to use.
 
 ## 2019 Preview Giveaway
 
-You know all of that stuff I just talked about? Well, I got some cool switches and I wanted a keypad to put them in, but I thought a regular 2K RGB keypad wasn't cool enough, so I made a quick proof-of-concept of what I want the keypads to be next year and got it working! As seen in the animation above, here it is printed in cool proto-pasta purple sparkly filament.
+You know all of that stuff I just talked about? Well, I got some cool switches and I wanted a keypad to put them in, but I thought a regular 2K RGB keypad wasn't cool enough, so I made a quick proof-of-concept of what I want the keypads to be next year and got it working! As seen in the first picture and animation above, here it is printed in cool proto-pasta purple sparkly filament.
 
-![Design refresh](https://thnikk.github.io/blog/images/121518/DSC_1125.jpg "New design")
-
-There's obviously no hot-swapping yet but this is quite a bit smaller and features the touch-sensitive screw. This was just to see if a smaller keypad like this would even work in the first place and I'm very happy to report that it works perfectly and this seems like the direction I'd like to go into for faster prints, better portability and ergonomics, as well as improved aesthetics.
+There's obviously no hot-swapping yet but this is quite a bit smaller and features the touch-sensitive screw. This was just to see if a smaller keypad like this would even work in the first place and I'm very happy to report that it works perfectly and this seems like the direction I'd like to go into for faster prints, better portability and ergonomics, as well as improved aesthetics. The button head screw also looks great since it actually looks like a button, compared to the countersunk screws I'm using now.
 
 #### Dealing with Gleam
 
