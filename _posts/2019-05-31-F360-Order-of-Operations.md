@@ -3,7 +3,7 @@ layout:post
 title: Order of Operations in Fusion 360
 ---
 
-![CAD2IRL](https://thnikk.github.io/blog/images/knob/knob2knob.jpg)
+![Cadtoirl](https://thnikk.github.io/blog/images/knob/knob2knob.jpg)
 
 I've been wanting to write a fun post about something for a while, and though it's apparently been half a year since my last post, I'm happy to be writing something. Today's subject is the order of operations when modeling in Fusion 360. This can be an issue for people who are new to modeling, so I'm going to describe how I made this simple knurled knob since there were a few ways I could have gone through it. The features used here aren't specific to this model, so if you're trying to get into CAD but aren't trying to make this exact thing, this should still help you.
 
