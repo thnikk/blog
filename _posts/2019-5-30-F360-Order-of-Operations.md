@@ -7,6 +7,7 @@ title: Order of Operations in Fusion 360
 
 I've been wanting to write a fun post about something for a while, and though it's apparently been half a year since my last post, I'm happy to be writing something. Today's subject is the order of operations when modeling in Fusion 360. This can be an issue for people who are new to modeling, so I'm going to describe how I made this simple knurled knob since there were a few ways I could have gone through it. The features used here aren't specific to this model, so if you're trying to get into CAD but aren't trying to make this exact thing, this should still help you.
 
+<!--break-->
 
 The important first step is to try to think as far ahead as possible to avoid problems. This isn't totally necessary, but as you'll see later, it reduces the number of features required. Ideally this wouldn't be required, but Fusion can get bogged down pretty quickly and thinking about this kind of stuff can help keep designs be much more clean than they otherwise would be and make future edits less of a chore of waiting around for Fusion to recalculate features. I'll explain it as I go along, but for now I'm starting the model from the bottom of the part of the knob that will be gripped.
 
