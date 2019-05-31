@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Order of Operations in Fusion 360
 ---
 
