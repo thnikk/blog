@@ -5,7 +5,7 @@ title: Dead or Alive 6 Controller
 
 I was originally planning on including this in a large summary post, but the development has taken a bit longer than I anticipated, so I'd like to take this opportunity to go more in-depth with my new controller:
 
-![Demo](https://thnikk.github.io/blog/images/doaController/demo.webm)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqWzqG6DqxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--break-->
 
@@ -63,7 +63,7 @@ For now, I'm thinking about either having a basic and an LED model of the contro
 
 This is something you may not normally think about, but most d-pads have a little dome in the center of the backside which prevents opposite buttons from being pressed. This is something I had to explicitly add to the code and honestly looks really weird in combination with the LEDs. 
 
-![Opposites](https://thnikk.github.io/blog/images/doaController/arrows.webm)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uml30Ywj3rU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 However, this does prevent some wonkiness in-game, especially for things like half-circles. Basically, let's say you're hitting left, then down, then right. If you're trying to do it really fast, you may hit all three buttons at the same time at some point. This can cause some problems, so by preventing opposites from being pressed, that three button input turns into a single down button press. Ideally you wouldn't press more than two directions at a time, but since it is possible with this design, I wanted to add some insurance for situations like this. 
 
