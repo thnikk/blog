@@ -1,9 +1,8 @@
 ---
 layout: post
-title: February 2020 Update with Big DOA Controller Update
+title: February 2020 Fightboard Update
 ---
 
-# February Update
 I know I'm a month and a half late, but Happy New Year! I had some time off and I feel refreshed and ready to get stuff done. I've already made a ton of progress and I'm excited to be able to talk about it as the release is finally approaching.
 
 ## Fightboard/DOA Controller
